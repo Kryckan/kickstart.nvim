@@ -5,3 +5,69 @@ nvim
 
 spell/
 lazy-lock.json
+
+.DS_Store
+
+# Ignore compiled files
+*.o
+*.so
+*.pyc
+*.pyo
+
+# Ignore version control directories
+.git/
+.hg/
+.svn/
+
+# Ignore backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Neovim-specific directories and files
+.netrwhist
+*.netrwhist
+.nvimlog
+*.nvimlog
+.nviminfo
+*.nviminfo
+
+# Ignore plugin-specific directories and files
+plugged/
+autoload/
+.luacache
+
+# Ignore local configuration files
+local/
+
+# Ignore session files
+sessions/
+
+# Ignore compiled Lua files
+lua/
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore test files and directories
+tests/
+spec/
+features/
+
+# Ignore documentation files
+doc/
