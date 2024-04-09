@@ -57,8 +57,6 @@ local/
 # Ignore session files
 sessions/
 
-# Ignore compiled Lua files
-lua/
 
 # Ignore temporary files
 tmp/
